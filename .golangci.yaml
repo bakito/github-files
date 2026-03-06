@@ -1,3 +1,4 @@
+# managed by https://github.com/bakito/github-files sync action
 version: '2'
 linters:
   enable:
