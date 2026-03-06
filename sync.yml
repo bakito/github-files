@@ -28,3 +28,9 @@ group:
       bakito/adguardhome-sync
       bakito/toolbox
       bakito/vault-unsealer
+  # Funding
+  - files:
+      - source: .github/FUNDING.yml
+        dest: .github/FUNDING.yml
+    repos: |
+      bakito/adguardhome-sync
