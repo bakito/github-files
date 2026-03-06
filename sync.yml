@@ -1,10 +1,22 @@
 group:
-  # go projects
+  # govulncheck
   - files:
-      - source: .golangci.yaml
-        dest: .golangci.yaml
       - source: workflow/govulncheck.yaml
         dest: .github/workflows/govulncheck.yaml
     repos: |
       bakito/gws
+      bakito/adguardhome-sync
+
+  # golangci-lint
+  - files:
+      - source: .golangci.yaml
+        dest: .golangci.yaml
+    repos: |
+      bakito/gws
+
+  # golangci-lint without depguard
+  - files:
+      - source: .golangci-without-depguard.yaml
+        dest: .golangci.yaml
+    repos: |
       bakito/adguardhome-sync
