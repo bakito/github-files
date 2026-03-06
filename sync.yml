@@ -8,11 +8,12 @@ group:
       bakito/emoji
       bakito/gws
       bakito/toolbox
+      bakito/vault-unsealer
       bakito/volumio-tui
 
   # golangci-lint
   - files:
-      - source: .golangci.yaml
+      - source: golangci-lint/default.yaml
         dest: .golangci.yaml
     repos: |
       bakito/emoji
@@ -21,8 +22,9 @@ group:
 
   # golangci-lint without depguard
   - files:
-      - source: .golangci-without-depguard.yaml
+      - source: golangci-lint/without-depguard.yaml
         dest: .golangci.yaml
     repos: |
       bakito/adguardhome-sync
       bakito/toolbox
+      bakito/vault-unsealer
