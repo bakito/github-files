@@ -7,3 +7,4 @@ group:
         dest: .github/workflows/govulncheck.yaml
     repos: |
       bakito/gws
+      bakito/adguardhome-sync
