@@ -8,6 +8,7 @@ group:
       bakito/emoji
       bakito/gws
       bakito/kubexporter
+      bakito/policy-report-publisher
       bakito/sealed-secrets-web
       bakito/toolbox
       bakito/vault-unsealer
