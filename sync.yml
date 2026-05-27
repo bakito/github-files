@@ -7,6 +7,8 @@ group:
       bakito/adguardhome-sync
       bakito/emoji
       bakito/gws
+      bakito/java-truststore-injection-webhook
+      bakito/k8s-event-logger-operator
       bakito/kubexporter
       bakito/policy-report-publisher
       bakito/sealed-secrets-web
@@ -31,6 +33,8 @@ group:
       - source: golangci-lint/without-depguard.yaml
         dest: .golangci.yaml
     repos: |
+      bakito/java-truststore-injection-webhook
+      bakito/k8s-event-logger-operator
       bakito/vault-unsealer
   # Funding
   - files:
