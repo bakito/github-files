@@ -10,10 +10,12 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - run: git config user.name "github-files "
+      - run: git config user.email "github@bakito.ch"
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@8b92be3375cf1d1b0cd579af488a9255572e4619 # v1.21.1
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           CONFIG_PATH: sync.yml
           COMMIT_PREFIX: 'chore: '
-          COMMIT_BODY: 'Signed-off-by: bakito <github@bakito.ch>'
+          COMMIT_BODY: 'Signed-off-by: github-files <github@bakito.ch>'
