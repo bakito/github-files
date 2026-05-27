@@ -15,7 +15,7 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           GIT_USERNAME: "github-files"
-          GIT_EMAIL: "github@bakito.ch"
+          GIT_EMAIL: "files@github.com"
           CONFIG_PATH: sync.yml
           COMMIT_PREFIX: 'chore: '
-          COMMIT_BODY: 'Signed-off-by: github-files <github@bakito.ch>'
+          COMMIT_BODY: 'Signed-off-by: github-files <files@github.com>'
