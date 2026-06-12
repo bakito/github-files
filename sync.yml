@@ -10,7 +10,6 @@ group:
       bakito/java-truststore-injection-webhook
       bakito/k8s-event-logger-operator
       bakito/kubexporter
-      bakito/policy-report-publisher
       bakito/sealed-secrets-web
       bakito/toolbox
       bakito/vault-unsealer
