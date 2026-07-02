@@ -5,6 +5,7 @@ group:
         dest: .github/workflows/govulncheck.yaml
     repos: |
       bakito/adguardhome-sync
+      bakito/docs-gen
       bakito/emoji
       bakito/gws
       bakito/java-truststore-injection-webhook
@@ -21,6 +22,7 @@ group:
         dest: .golangci.yaml
     repos: |
       bakito/adguardhome-sync
+      bakito/docs-gen
       bakito/emoji
       bakito/gws
       bakito/kubexporter
