@@ -5,6 +5,7 @@ group:
         dest: .github/workflows/govulncheck.yaml
     repos: |
       bakito/adguardhome-sync
+      bakito/batch-job-controller
       bakito/docs-gen
       bakito/emoji
       bakito/gws
@@ -34,8 +35,10 @@ group:
       - source: golangci-lint/without-depguard.yaml
         dest: .golangci.yaml
     repos: |
+      bakito/batch-job-controller
       bakito/java-truststore-injection-webhook
       bakito/k8s-event-logger-operator
+      bakito/sealed-secrets-web
       bakito/vault-unsealer
   # Funding
   - files:
@@ -43,5 +46,7 @@ group:
         dest: .github/FUNDING.yml
     repos: |
       bakito/adguardhome-sync
+      bakito/batch-job-controller
+      bakito/java-truststore-injection-webhook      
       bakito/kubexporter
       bakito/sealed-secrets-web
